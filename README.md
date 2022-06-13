@@ -10,24 +10,19 @@ A folder will be made (named export) inside the folder where the exe is run.
 A .tsv file (wwiseImport.tsv) will be made inside the folder where the exe is run.
 Idea was done and referenced from https://github.com/ak-brodrigue/waapi-python-tools/tree/master/text-to-speech
 
-
-============================================================
 PLEASE READ BEFORE USING:
 
-CSV FORMAT:
---HEADERS--
+CSV FORMAT HEADERS
 Index, File Name, Dialogue content
-
-!!!!!! DO NOT LEAVE VALUES BLANK!!! !!!!!!
-DO NOT USE SPECIAL CHARACTERS IN YOUR FILE NAME
-LIKE !@#$%%^&*().
+DO NOT LEAVE VALUES BLANK
+DO NOT USE SPECIAL CHARACTERS IN YOUR FILE NAME LIKE !@#$%%^&*().
 
 A good example of a file name can be
 VO_NAME_001
-=============================================================
+
 INSTRUCTIONS
 
-ENSURE THAT YOU HAVE THESE PATHWAYS IN WWISE
+Ensure that you have these pathways in Wwise:
 Audio: \Actor-Mixer Hierarchy\Default Work Unit\<Actor-Mixer>VO
 Events: \Events\Default Work Unit\VO\ (VO IS A WORK UNIT)
 1. Launch CSV-to-TTS-TSV-Exporter.exe
